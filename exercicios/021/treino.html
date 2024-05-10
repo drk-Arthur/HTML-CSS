@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0px;
+        }
+
+        article {
+            background-color: white;
+        }
+
+        article > p {
+            color: black;
+        }
+
+        article > h2 {
+            color: black;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        a {
+            color: red;
+        }
+
+        main {
+            background-color: white;
+            color: black;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: lightgray;
+            color: black;
+            width: 250px;
+            margin: auto;
+            padding: 6px;
+        }
+
+        footer:hover {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre sua mãe.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate suscipit maiores ab libero impedit illum odit pariatur quas fugit? Quo aspernatur repudiandae totam laudantium vel! Error nostrum quidem nihil porro.</p>
+                <aside>
+                    <p>Ártigo criado por sua mãe.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+</body>
+</html>

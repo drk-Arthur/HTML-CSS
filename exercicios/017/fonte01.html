@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* medidas absolutas
+                cm, mm, in, px, pt, pc
+
+               medidas relativas
+                em, ex, rem, vw, vh, %
+                
+                1em = 16px geralmente*/
+            font-size: 1em;
+            font-weight:bold;
+            /*lighter, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            /*
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            Shorthand font
+
+            font-style -> font-weight -> font-size -> font-family*/
+            
+            font: italic bolder 3em sans-serif
+        }
+
+        h2 {
+            font: italic bold 2em sans-serif
+        }
+    </style>
+</head>
+<body>
+   <h1>trabalhando com fontes</h1> 
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet distinctio labore similique modi, qui enim sed neque culpa perferendis exercitationem ducimus. Quas nemo iure a dolorum expedita numquam veritatis delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste quidem tempore ipsa amet? Alias veniam fugit illo vitae sint voluptatem voluptatibus corporis, provident mollitia! Sunt cum minima sequi veniam.</p>
+   <h2>Subtítulo</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugiat voluptate iusto unde ipsa quam quas illo error pariatur nemo. Blanditiis a consequatur optio ratione dolore quod aut odit aperiam!</p>
+</body>
+</html>

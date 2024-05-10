@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: gray;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > nav {
+            background-color: gray;
+            padding: 3px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+        nav {
+            box-shadow: 2px 2px 4px 1px black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: darkred;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        #principal {
+            background-color:lightgray;
+            padding: 10px;
+        }
+
+        aside {
+            background-color: rgba(128, 128, 128, 0.527);
+        }
+
+        footer {
+            margin: auto;
+            background-color: black;
+            color: white;
+            padding: 1px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        footer:hover {
+            background-color: white;
+            color: black;
+            text-decoration: underline;
+            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        div#bola:hover {
+            background-color: white;
+        }
+
+        div > p {
+            text-align: center;
+            display: none;
+        }
+
+        div#bola:hover > p{
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="principal">
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et distinctio hic omnis. Possimus hic, enim fugiat iste minima sapiente, voluptas rem eaque officia natus facilis libero, magni itaque laborum. Sed.</p>
+                <aside>
+                    <p>Ártigo criado por #####</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+    <div id="bola">
+        <br>
+        <br>
+        <p>Nigga</p>
+    </div>
+</body>
+</html>
