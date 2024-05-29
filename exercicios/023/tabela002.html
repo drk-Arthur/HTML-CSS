@@ -13,6 +13,13 @@
             border: 1px solid black;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
         thead, tfoot {
             background-color: black;
@@ -34,6 +41,10 @@
             border-top-left-radius: 5px;
             font-weight: bold;
             font-size: 1.5em;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: gray;
         }
     </style>
 </head>
